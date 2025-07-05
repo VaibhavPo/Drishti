@@ -36,29 +36,22 @@ The videos are labeled and used for training an LRCN model to classify movement 
 ```bash
 git clone https://github.com/VaibhavPo/Drishti.git
 cd Drishti
+```
 ### 2. Install Requirements
 Ensure Python 3.10.13 is used. Install dependencies with:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
+```
+pip install -r requirements.txt```
 ### 3. Train the Model
 Open and run the Jupyter notebook:
 
-bash
-Copy
-Edit
-jupyter notebook "LRCN action recognition.ipynb"
+```
+jupyter notebook "LRCN action recognition.ipynb" ```
 This will generate the trained model file: download_model2.h5
 
 ### 4. Run Prediction
 Use the main script to test predictions on new video inputs:
 
-bash
-Copy
-Edit
-python mainfile.py
+```python mainfile.py```
 Make sure download_model2.h5 is present in the same directory or provide the correct path in mainfile.py.
 
 
