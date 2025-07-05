@@ -59,7 +59,7 @@ python mainfile.py
 Make sure download_model2.h5 is present in the same directory or provide the correct path in mainfile.py.
 
 
-<pre> Drishti/ 
+<pre> **Drishti/ **
   ├── dataset.txt # Link or reference to dataset location 
   ├── LRCN action recognition.ipynb # Jupyter notebook for model training 
   ├── download_model2.h5 # Trained LRCN model file 
