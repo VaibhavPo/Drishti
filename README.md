@@ -60,7 +60,7 @@ Make sure download_model2.h5 is present in the same directory or provide the cor
 
 
 ## Folder structure
--Drishti/
+-**Drishti/**
 -├── dataset.txt                    # Link to dataset
 -├── LRCN action recognition.ipynb  # Training notebook
 -├── download_model2.h5             # Trained model (output of training)
