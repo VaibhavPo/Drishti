@@ -40,26 +40,30 @@ cd Drishti
 ### 2. Install Requirements
 Ensure Python 3.10.13 is used. Install dependencies with:
 ```
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 ### 3. Train the Model
 Open and run the Jupyter notebook:
 
 ```
-jupyter notebook "LRCN action recognition.ipynb" ```
+jupyter notebook "LRCN action recognition.ipynb"
+ ```
 This will generate the trained model file: download_model2.h5
 
 ### 4. Run Prediction
 Use the main script to test predictions on new video inputs:
 
-```python mainfile.py```
+```
+python mainfile.py
+```
 Make sure download_model2.h5 is present in the same directory or provide the correct path in mainfile.py.
 
 
 ## Folder structure
-Drishti/
-├── dataset.txt                    # Link to dataset
-├── LRCN action recognition.ipynb  # Training notebook
-├── download_model2.h5             # Trained model (output of training)
-├── mainfile.py                    # Main inference script
-├── requirements.txt               # Dependencies list
-└── README.md                      # Project description
+-Drishti/
+-├── dataset.txt                    # Link to dataset
+-├── LRCN action recognition.ipynb  # Training notebook
+-├── download_model2.h5             # Trained model (output of training)
+-├── mainfile.py                    # Main inference script
+-├── requirements.txt               # Dependencies list
+-└── README.md                      # Project description
